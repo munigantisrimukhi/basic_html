@@ -5,6 +5,21 @@
         <title>My First Web Page</title>
 </head>
     <body style="background-color:cornsilk;">
+	<header>
+		<h1>My College Website</h1>
+		<nav>
+		<ol>
+			<li><a href="about.html">About</a></li>
+			<li>
+				<a href="https://developer.mozilla.org/"
+			target="_blank"
+			rel="noopener noreferrer">
+			MDN Web Docs</a></li>
+		</ol>
+	</nav>
+	</header>
+	<main>
+		<article>
 	<h1 style="color:rgb(229, 15, 61);">Part 1:Foundations</h1>
 	<p style="color:green;">This page demonstrates the basic building block of an HTML document.</p>
 	<p>The <strong style="color:red";>Warning:</strong> HTML is used to create the structure of web pages.</p>
@@ -20,11 +35,104 @@
     <li>CSS</li>
     <li>JavaScript</li>
 	</ol>
-<h2>HTML</h2>
-<ul>
-    <li>document structure</li>
-    <li>text elements</li>
-    <li>lists</li>
-    <li>links</li>
-</ul>
+	<h2>HTML</h2>
+
+	<ul>
+		<li>
+			HTML
+			<ul>
+    			<li>document structure</li>
+    			<li>text elements</li>
+    			<li>lists</li>
+    			<li>links</li>
+			</ul>
+		</li>
+	</ul>
+	
+<section>
+<h2>My College</h2>
+		<img src="pshtmlp.jpeg"
+		alt="college building with classroom and laborataries"
+		width="500">
+</section>
+<section>
+<img src="border.jpg"
+	alt=""
+	width="500">
+</section>
+</article>
+ <table>
+      <caption>Student Marks — HTML and CSS</caption>
+      <thead>
+        <tr>
+          <th scope="col">Student Name</th>
+          <th scope="col">HTML Marks</th>
+          <th scope="col">CSS Marks</th>
+        </tr>
+		</thead>
+      <tbody>
+        <tr>
+          <td>Asha</td>
+          <td>88</td>
+          <td>92</td>
+        </tr>
+        <tr>
+          <td>Ravi</td>
+          <td>75</td>
+          <td>80</td>
+        </tr>
+        <tr>
+          <td>Meera</td>
+          <td>91</td>
+          <td>85</td>
+        </tr>
+      </tbody>
+    </table>
+	 <form action="#" method="post">
+      <fieldset>
+        <legend>Contact Me</legend>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="role">Role:</label>
+        <select id="role" name="role">
+          <option value="student">Student</option>
+          <option value="teacher">Teacher</option>
+          <option value="other">Other</option>
+        </select>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required minlength="10"></textarea>
+		<button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </main>
+
+<aside>
+	<h3>Related Links</h3>
+	<ul>
+		<li>
+			<a href="https://www.w3schools.com/" target="_blank">
+				W3Schools
+			</a>
+		</li>
+		<li>
+			<a href="https://www.freecodecamp.org/"target="_blank">
+				freecodecamp
+			</a>
+		</li>
+	</ul>
+</aside>
+</main>
+<footer>
+	<p>
+		@2026 My College Website|contact:example@gmail.com
+	</p>
+</footer>			
+
+
     </body>
